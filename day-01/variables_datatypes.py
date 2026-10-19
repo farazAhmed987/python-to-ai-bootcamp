@@ -54,3 +54,35 @@ for number in range(1,8):
     if number == 5:
         break
     print(number)
+
+
+//practice
+
+name = "Akif"
+age = 20
+marks = 85.5
+is_enrolled = True
+graduation_year = None
+
+print("Name:", name, "| Type:", type(name).__name__)
+print("Age:", age, "| Type:", type(age).__name__)
+print("Marks:", marks, "| Type:", type(marks).__name__)
+print("Enrolled:", is_enrolled, "| Type:", type(is_enrolled).__name__)
+print("Graduation Year:", graduation_year)
+
+# Type conversion
+age_next_year = int(age) + 1
+print("Age Next Year:", age_next_year)
+
+# Arithmetic and comparison operators
+print("Total Marks After Bonus:", marks + 5)
+print("Passed:", marks >= 50)
+print("Eligible:", age >= 18 and is_enrolled)
+
+# Loop with continue and break
+for number in range(1, 8):
+    if number == 2:
+        continue
+    if number == 6:
+        break
+    print("Number:", number)
